@@ -1,0 +1,42 @@
+/* importamos fuente */
+@import url(https://fonts.googleapis.com/css2?family=Aladin&display=swap);
+/* definimos body */
+body {
+  font-family: 'Aladin';
+  background-color: #e5f5c6b3;
+  margin: 0;
+  padding: 0;
+}
+/* posicionamos y decoramos */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgb(239, 239, 245);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* posicionamos titulos en el centro */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+/* definimos estilo de la lista */
+ul {
+  list-style-type:disc;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}

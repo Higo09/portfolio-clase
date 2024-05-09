@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@100;200;300;400;500;600;700&display=swap);
+
+:root{
+    --background-color: #663399;
+    --text-color: #ffffff;
+}
+
+body {
+    font-family: 'Palanquin Dark', sans-serif, ;
+    width: 100%;
+    margin: 0;
+    gap: 0;
+}
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header-bottom img {
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+
+.text-header {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn-volver {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
+img {
+    resize: block;
+    width: 120px;
+    position: absolute;
+}
+header .header-bottom h1{
+    margin: 0;
+    gap: 0;
+}
+header{
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: bolder;
+    text-align: center;
+}
+main{
+    background-color: white;
+    color: #663399;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    padding: 2rem;
+}
+td{
+    padding: 2%;
+}
+table td:hover{
+    background-color: aqua;
+    text-transform: uppercase;
+}
